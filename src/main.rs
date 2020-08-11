@@ -1,3 +1,5 @@
+mod longest_palindromic_substring; 
+
 fn main() {
-    println!("Hello, world!");
+    println!("{}",longest_palindromic_substring::longest_palindromic_substring("ab12365456321bb"));
 }
